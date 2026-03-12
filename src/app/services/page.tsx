@@ -1253,6 +1253,7 @@ export default function ServicesPage() {
                   </span>
                   <span className="text-muted">만원 / 월</span>
                 </div>
+                <p className="text-xs text-muted mb-8 text-center">* 구성에 따라 가격이 달라질 수 있습니다</p>
 
                 <ul className="space-y-3 mb-8 flex-1">
                   {pkg.features.map((f, i) => (

@@ -99,6 +99,8 @@ export default function ServicePreview() {
                 <span className="text-muted text-sm">만원 / 월</span>
               </div>
 
+              <p className="text-xs text-muted mb-6">* 구성에 따라 가격이 달라질 수 있습니다</p>
+
               {/* Divider */}
               <div className="h-px bg-gray-200 mb-6" />
 

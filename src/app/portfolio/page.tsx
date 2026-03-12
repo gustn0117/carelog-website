@@ -305,88 +305,15 @@ export default function PortfolioPage() {
     },
   ];
 
-  const stats = [
-    {
-      value: "50+",
-      label: "누적 파트너 병원",
-      icon: (
-        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-          <rect x="2" y="8" width="28" height="20" rx="4" fill="#4d7d88" />
-          <path d="M2 12L16 20L30 12" stroke="#e8f5ee" strokeWidth="1.5" />
-          <rect x="8" y="4" width="16" height="8" rx="2" fill="#3a6670" />
-          <path d="M14 8H18" stroke="#c5a55a" strokeWidth="1.5" strokeLinecap="round" />
-        </svg>
-      ),
-    },
-    {
-      value: "95%",
-      label: "재계약률",
-      icon: (
-        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-          <circle cx="16" cy="16" r="13" stroke="#4d7d88" strokeWidth="2" fill="none" />
-          <path d="M16 3A13 13 0 0 1 28.7 19" stroke="#c5a55a" strokeWidth="3" strokeLinecap="round" />
-          <circle cx="16" cy="16" r="6" fill="#e8f5ee" />
-          <text x="12.5" y="20" fill="#3a6670" fontSize="8" fontWeight="bold">%</text>
-        </svg>
-      ),
-    },
-    {
-      value: "3.2배",
-      label: "평균 환자 유입 증가",
-      icon: (
-        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-          <path d="M4 28L12 18L18 22L28 6" stroke="#4d7d88" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-          <path d="M22 6H28V12" stroke="#c5a55a" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-          <circle cx="12" cy="18" r="3" fill="#e8f5ee" stroke="#3a6670" strokeWidth="1" />
-          <circle cx="18" cy="22" r="3" fill="#e8f5ee" stroke="#3a6670" strokeWidth="1" />
-        </svg>
-      ),
-    },
-    {
-      value: "12개",
-      label: "전문 진료과목 경험",
-      icon: (
-        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-          <rect x="4" y="4" width="24" height="24" rx="4" fill="#e8f5ee" stroke="#4d7d88" strokeWidth="1.5" />
-          <path d="M16 8V24M8 16H24" stroke="#3a6670" strokeWidth="2.5" strokeLinecap="round" />
-          <circle cx="10" cy="10" r="2" fill="#c5a55a" opacity="0.5" />
-          <circle cx="22" cy="10" r="2" fill="#c5a55a" opacity="0.5" />
-          <circle cx="10" cy="22" r="2" fill="#c5a55a" opacity="0.5" />
-          <circle cx="22" cy="22" r="2" fill="#c5a55a" opacity="0.5" />
-        </svg>
-      ),
-    },
-  ];
-
   return (
     <>
-      {/* Hero with dramatic gradient */}
+      {/* Hero */}
       <section className="relative pt-32 pb-20 overflow-hidden" style={{ background: "linear-gradient(135deg, #2a4e56 0%, #3a6670 35%, #4d7d88 65%, #5a9aa8 100%)" }}>
-        {/* Decorative SVG patterns */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          {/* Large concentric circles */}
           <svg className="absolute -top-32 -right-32 opacity-10" width="500" height="500" viewBox="0 0 500 500">
             <circle cx="250" cy="250" r="220" stroke="white" strokeWidth="1.5" fill="none" />
             <circle cx="250" cy="250" r="170" stroke="white" strokeWidth="1" fill="none" />
             <circle cx="250" cy="250" r="120" stroke="#c5a55a" strokeWidth="1" fill="none" />
-            <circle cx="250" cy="250" r="70" stroke="white" strokeWidth="0.5" fill="none" />
-          </svg>
-          {/* Dot grid */}
-          <svg className="absolute bottom-0 left-0 opacity-10" width="240" height="160" viewBox="0 0 240 160">
-            {Array.from({ length: 48 }).map((_, i) => (
-              <circle key={i} cx={(i % 8) * 30 + 15} cy={Math.floor(i / 8) * 26 + 15} r="2" fill="white" />
-            ))}
-          </svg>
-          {/* Abstract diamond shapes */}
-          <svg className="absolute top-20 left-1/4 opacity-10" width="60" height="60" viewBox="0 0 60 60">
-            <rect x="15" y="15" width="30" height="30" rx="4" fill="white" transform="rotate(45 30 30)" />
-          </svg>
-          <svg className="absolute bottom-20 right-1/4 opacity-8" width="40" height="40" viewBox="0 0 40 40">
-            <rect x="10" y="10" width="20" height="20" rx="3" fill="#c5a55a" transform="rotate(45 20 20)" />
-          </svg>
-          {/* Plus signs */}
-          <svg className="absolute top-1/2 left-12 opacity-15" width="20" height="20" viewBox="0 0 20 20">
-            <path d="M10 3V17M3 10H17" stroke="white" strokeWidth="2" strokeLinecap="round" />
           </svg>
         </div>
 
@@ -396,21 +323,6 @@ export default function PortfolioPage() {
           <p className="text-white/80 max-w-lg mx-auto text-lg">
             케어로그와 함께한 병원들의 성장 이야기
           </p>
-        </div>
-      </section>
-
-      {/* Stats Summary Section */}
-      <section className="relative -mt-10 z-10 pb-8">
-        <div className="max-w-4xl mx-auto px-6">
-          <div className="bg-white rounded-2xl p-6 md:p-8 grid grid-cols-2 md:grid-cols-4 gap-6" style={{ boxShadow: "0 8px 40px rgba(26,86,50,0.12)" }}>
-            {stats.map((stat, i) => (
-              <div key={i} className="text-center">
-                <div className="flex justify-center mb-2">{stat.icon}</div>
-                <p className="text-2xl md:text-3xl font-bold" style={{ color: "#3a6670" }}>{stat.value}</p>
-                <p className="text-xs md:text-sm text-muted mt-1">{stat.label}</p>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 
