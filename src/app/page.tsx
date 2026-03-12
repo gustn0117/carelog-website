@@ -11,10 +11,10 @@ export default function Home() {
       <section className="relative min-h-screen flex items-center overflow-hidden">
         {/* Background image */}
         <Image
-          src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1920&q=80"
+          src="/KakaoTalk_20260208_215356061_25.png"
           alt=""
           fill
-          className="object-cover scale-105"
+          className="object-cover"
           priority
         />
         {/* Overlays */}
