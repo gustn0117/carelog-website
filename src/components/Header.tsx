@@ -38,7 +38,7 @@ export default function Header() {
             className={scrolled ? "" : "brightness-0 invert"}
           />
           <div className="flex flex-col items-start" style={{ gap: "1px" }}>
-            <span className={`text-[15px] font-light tracking-[0.25em] uppercase transition-colors duration-300 ${scrolled ? "text-dark" : "text-white"}`}>
+            <span className={`text-[15px] font-light tracking-[0.12em] uppercase transition-colors duration-300 ${scrolled ? "text-dark" : "text-white"}`}>
               CARE LOG
             </span>
             <span className={`text-[10px] font-normal tracking-[0.15em] transition-colors duration-300 ${scrolled ? "text-muted" : "text-white/60"}`}>

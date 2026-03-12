@@ -17,7 +17,7 @@ export default function Footer() {
                   className="brightness-0 invert"
                 />
                 <div className="flex flex-col" style={{ gap: "1px" }}>
-                  <span className="text-[15px] font-light tracking-[0.25em] text-white uppercase">
+                  <span className="text-[15px] font-light tracking-[0.12em] text-white uppercase">
                     CARE LOG
                   </span>
                   <span className="text-[10px] font-normal tracking-[0.15em] text-gray-400">
