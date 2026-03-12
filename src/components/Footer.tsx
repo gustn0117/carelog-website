@@ -18,7 +18,7 @@ export default function Footer() {
                 />
                 <div className="flex flex-col" style={{ gap: "1px" }}>
                   <span className="text-[15px] font-light tracking-[0.25em] text-white uppercase">
-                    CARELOG
+                    CARE LOG
                   </span>
                   <span className="text-[10px] font-normal tracking-[0.15em] text-gray-400">
                     케어로그
