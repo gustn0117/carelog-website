@@ -289,12 +289,11 @@ export default function MarketingPage() {
             Hospital Marketing
           </p>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white leading-tight animate-fade-up-delay-1">
-            병원마케팅대행 선택 전<br />
-            <span className="text-[#c5a55a]">&apos;이것&apos;</span> 모르면 시간과 비용만 낭비합니다
+            병원마케팅이란?
           </h1>
           <p className="text-white/70 max-w-xl mx-auto leading-relaxed text-lg animate-fade-up-delay-2">
-            수많은 대행사 중, 원장님의 병원을 진짜 &apos;브랜드&apos;로 만들어줄
-            파트너를 찾는 기준 3가지를 말씀드리겠습니다.
+            케어로그가 생각하는 병원마케팅의 본질과<br />
+            저희만의 차별화된 강점을 소개합니다.
           </p>
 
           {/* Scroll indicator */}
@@ -371,17 +370,16 @@ export default function MarketingPage() {
                 <div className="h-px flex-1 bg-secondary/20"></div>
               </div>
               <h2 className="text-2xl font-bold mt-2 mb-4">
-                정보가 아닌<br />&apos;공감&apos;을 파는 곳인가?
+                정보가 아닌<br />&apos;공감&apos;을 팝니다
               </h2>
               <p className="text-muted leading-relaxed">
-                병원마케팅대행을 맡기실 때 가장 먼저 확인하셔야 할 것은
-                &apos;원고의 질&apos;입니다. 대부분의 대행사는 교과서적인 질환 설명,
+                대부분의 대행사는 교과서적인 질환 설명,
                 기계적인 장비 소개에 급급합니다.
+                하지만 저희는 다릅니다.
               </p>
               <p className="text-muted leading-relaxed mt-4">
-                하지만 환자가 검색창에 질환명을 입력할 때의 심정은 어떨까요?
-                &apos;아프지는 않을까?&apos;, &apos;과잉 진료를 당하지는 않을까?&apos;
-                하는 불안감을 가지고 있습니다.
+                환자가 검색창에 질환명을 입력할 때의 불안한 심정을 먼저 읽고,
+                &apos;이 병원이라면 괜찮겠다&apos;는 확신을 주는 콘텐츠를 만듭니다.
               </p>
               {/* SVG Illustration */}
               <div className="mt-6">
@@ -440,16 +438,15 @@ export default function MarketingPage() {
                 <div className="h-px flex-1 bg-secondary/20"></div>
               </div>
               <h2 className="text-2xl font-bold mt-2 mb-4">
-                &apos;지역 독점&apos;으로<br />우리 병원을 보호해 주는가?
+                &apos;지역 독점&apos;으로<br />병원을 보호합니다
               </h2>
               <p className="text-muted leading-relaxed">
-                진정한 병원전문마케팅 회사라면 상도덕을 지켜야 합니다.
-                저희는 한 지역에서는 한 종류의 병원(진료과목)만 담당한다는 원칙을 고수합니다.
+                저희는 한 지역에서는 한 종류의 병원(진료과목)만 담당합니다.
+                이는 단순한 계약 조건이 아닌, 원장님의 병원을 지키기 위한 원칙입니다.
               </p>
               <p className="text-muted leading-relaxed mt-4">
-                이는 단순한 계약 조건이 아닙니다.
                 원장님의 병원 브랜드 가치를 보호하고, 해당 지역 내에서
-                독보적인 1등 병원으로 만들기 위한 필수적인 전략입니다.
+                독보적인 1등 병원으로 만들어 드립니다.
               </p>
               {/* SVG Illustration */}
               <div className="mt-6">
@@ -473,17 +470,17 @@ export default function MarketingPage() {
                 <div className="h-px flex-1 bg-secondary/20"></div>
               </div>
               <h2 className="text-2xl font-bold mt-2 mb-4">
-                &apos;모두&apos;가 아닌<br />&apos;하나&apos;에 집중하는가?
+                &apos;모두&apos;가 아닌<br />&apos;하나&apos;에 집중합니다
               </h2>
               <p className="text-muted leading-relaxed">
-                &apos;모든 것을 잘한다&apos;는 표현은 환자에게 특별한 이유를 주지 못합니다.
                 저희는 원장님과의 심층 인터뷰를 통해 병원의 가장 강력한
                 무기(주력 진료)를 발굴합니다.
+                &apos;모든 것을 잘한다&apos;는 표현 대신, 확실한 한 가지에 집중합니다.
               </p>
               <p className="text-muted leading-relaxed mt-4">
-                그 강점을 중심으로 환자들에게 &quot;아, 거기는 OO 치료를 정말 잘하는 곳이지&quot;라는
-                인식을 심어줍니다. 하나의 확실한 킬러 콘텐츠가 자리 잡으면,
-                다른 진료 과목의 매출은 자연스럽게 따라오게 되어 있습니다.
+                환자들에게 &quot;아, 거기는 OO 치료를 정말 잘하는 곳이지&quot;라는
+                인식을 심어드립니다. 하나의 확실한 킬러 콘텐츠가 자리 잡으면,
+                다른 진료 과목의 매출은 자연스럽게 따라옵니다.
               </p>
               {/* SVG Illustration */}
               <div className="mt-6">
@@ -728,14 +725,14 @@ export default function MarketingPage() {
               <path d="M30,5 L35,20 L50,20 L38,28 L42,45 L30,35 L18,45 L22,28 L10,20 L25,20Z" fill="#c5a55a" />
             </svg>
             <h2 className="text-3xl font-bold mb-8">
-              실패 없는 대행사 선정 기준
+              케어로그의 3가지 약속
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             {[
-              "환자의 마음을 읽는\n공감 콘텐츠인가?",
-              "우리 병원의 가치를 보호하는\n지역 독점을 준수하는가?",
-              "백화점식 나열이 아닌\n선택과 집중을 하는가?",
+              "환자의 마음을 읽는\n공감 콘텐츠를 만듭니다",
+              "지역 독점 원칙으로\n병원의 가치를 보호합니다",
+              "선택과 집중으로\n확실한 브랜드를 만듭니다",
             ].map((text, i) => (
               <div
                 key={i}

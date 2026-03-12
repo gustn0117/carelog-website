@@ -33,9 +33,8 @@ export default function Home() {
               <p className="text-4xl md:text-5xl font-bold text-white tracking-tight mb-4">
                 병원의 가치를
               </p>
-              <p className="text-4xl md:text-5xl font-bold tracking-tight">
-                <span className="text-secondary">진심으로</span>{" "}
-                <span className="text-white">정리합니다</span>
+              <p className="text-4xl md:text-5xl font-bold tracking-tight text-white">
+                정리합니다
               </p>
             </div>
 

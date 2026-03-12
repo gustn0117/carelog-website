@@ -371,9 +371,6 @@ export default function PortfolioPage() {
             ))}
           </div>
 
-          <p className="text-center text-muted text-sm mt-12">
-            * 포트폴리오 상세 내용은 상담 시 안내드립니다.
-          </p>
         </div>
       </section>
 
