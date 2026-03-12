@@ -52,16 +52,29 @@ export default function Footer() {
                   { label: "서비스 안내", href: "/services" },
                   { label: "병원마케팅", href: "/marketing" },
                   { label: "포트폴리오", href: "/portfolio" },
+                  { label: "블로그", href: "https://blog.naver.com/PostList.naver?blogId=miaketing&from=postList&categoryNo=1", external: true },
                   { label: "문의하기", href: "/contact" },
                 ].map((link) => (
                   <li key={link.href}>
-                    <Link
-                      href={link.href}
-                      className="text-gray-400 hover:text-white transition-colors duration-300 inline-flex items-center gap-2 group"
-                    >
-                      <span className="w-0 h-px bg-secondary transition-all duration-300 group-hover:w-3" />
-                      {link.label}
-                    </Link>
+                    {"external" in link ? (
+                      <a
+                        href={link.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-400 hover:text-white transition-colors duration-300 inline-flex items-center gap-2 group"
+                      >
+                        <span className="w-0 h-px bg-secondary transition-all duration-300 group-hover:w-3" />
+                        {link.label}
+                      </a>
+                    ) : (
+                      <Link
+                        href={link.href}
+                        className="text-gray-400 hover:text-white transition-colors duration-300 inline-flex items-center gap-2 group"
+                      >
+                        <span className="w-0 h-px bg-secondary transition-all duration-300 group-hover:w-3" />
+                        {link.label}
+                      </Link>
+                    )}
                   </li>
                 ))}
               </ul>
