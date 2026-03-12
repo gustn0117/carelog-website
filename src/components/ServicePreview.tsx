@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const CheckIcon = () => (
   <svg className="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 16 16" fill="none">
-    <path d="M4 8l3 3 5-5" stroke="#1a5632" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+    <path d="M4 8l3 3 5-5" stroke="#3a6670" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
   </svg>
 );
 

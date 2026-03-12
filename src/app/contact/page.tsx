@@ -33,8 +33,8 @@ export default function ContactPage() {
       icon: (
         <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
           <rect x="4" y="4" width="40" height="40" rx="8" fill="#e8f5ee" />
-          <path d="M32 12L36 16L20 32H16V28L32 12Z" fill="#1a5632" stroke="#0f3d22" strokeWidth="1.5" strokeLinejoin="round" />
-          <path d="M29 15L33 19" stroke="#2d7a4a" strokeWidth="1.5" />
+          <path d="M32 12L36 16L20 32H16V28L32 12Z" fill="#3a6670" stroke="#2a4e56" strokeWidth="1.5" strokeLinejoin="round" />
+          <path d="M29 15L33 19" stroke="#4d7d88" strokeWidth="1.5" />
           <line x1="16" y1="36" x2="32" y2="36" stroke="#c5a55a" strokeWidth="2" strokeLinecap="round" />
           <line x1="16" y1="32" x2="24" y2="32" stroke="#c5a55a" strokeWidth="1.5" strokeLinecap="round" opacity="0.5" />
         </svg>
@@ -46,10 +46,10 @@ export default function ContactPage() {
       icon: (
         <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
           <rect x="4" y="4" width="40" height="40" rx="8" fill="#e8f5ee" />
-          <path d="M24 10C19.58 10 16 13.58 16 18C16 25.5 24 36 24 36S32 25.5 32 18C32 13.58 28.42 10 24 10Z" fill="#2d7a4a" stroke="#0f3d22" strokeWidth="1.5" />
-          <circle cx="24" cy="18" r="4" fill="#e8f5ee" stroke="#1a5632" strokeWidth="1.5" />
+          <path d="M24 10C19.58 10 16 13.58 16 18C16 25.5 24 36 24 36S32 25.5 32 18C32 13.58 28.42 10 24 10Z" fill="#4d7d88" stroke="#2a4e56" strokeWidth="1.5" />
+          <circle cx="24" cy="18" r="4" fill="#e8f5ee" stroke="#3a6670" strokeWidth="1.5" />
           <circle cx="24" cy="18" r="1.5" fill="#c5a55a" />
-          <path d="M18 34C18 34 20 32 24 32C28 32 30 34 30 34" stroke="#4a9b6f" strokeWidth="1.5" strokeLinecap="round" opacity="0.5" />
+          <path d="M18 34C18 34 20 32 24 32C28 32 30 34 30 34" stroke="#5a9aa8" strokeWidth="1.5" strokeLinecap="round" opacity="0.5" />
         </svg>
       ),
     },
@@ -59,9 +59,9 @@ export default function ContactPage() {
       icon: (
         <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
           <rect x="4" y="4" width="40" height="40" rx="8" fill="#e8f5ee" />
-          <circle cx="20" cy="18" r="5" fill="#2d7a4a" />
-          <circle cx="30" cy="18" r="5" fill="#4a9b6f" />
-          <path d="M12 34C12 28.48 16.48 24 22 24H28C33.52 24 38 28.48 38 34" stroke="#1a5632" strokeWidth="2" strokeLinecap="round" />
+          <circle cx="20" cy="18" r="5" fill="#4d7d88" />
+          <circle cx="30" cy="18" r="5" fill="#5a9aa8" />
+          <path d="M12 34C12 28.48 16.48 24 22 24H28C33.52 24 38 28.48 38 34" stroke="#3a6670" strokeWidth="2" strokeLinecap="round" />
           <circle cx="20" cy="18" r="2" fill="#e8f5ee" />
           <circle cx="30" cy="18" r="2" fill="#e8f5ee" />
           <path d="M22 30L24 32L28 28" stroke="#c5a55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -74,10 +74,10 @@ export default function ContactPage() {
       icon: (
         <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
           <rect x="4" y="4" width="40" height="40" rx="8" fill="#e8f5ee" />
-          <rect x="10" y="14" width="20" height="14" rx="7" fill="#2d7a4a" />
-          <path d="M14 28L10 34" stroke="#2d7a4a" strokeWidth="2" strokeLinecap="round" />
-          <rect x="20" y="20" width="18" height="12" rx="6" fill="#4a9b6f" />
-          <path d="M34 32L38 36" stroke="#4a9b6f" strokeWidth="2" strokeLinecap="round" />
+          <rect x="10" y="14" width="20" height="14" rx="7" fill="#4d7d88" />
+          <path d="M14 28L10 34" stroke="#4d7d88" strokeWidth="2" strokeLinecap="round" />
+          <rect x="20" y="20" width="18" height="12" rx="6" fill="#5a9aa8" />
+          <path d="M34 32L38 36" stroke="#5a9aa8" strokeWidth="2" strokeLinecap="round" />
           <circle cx="17" cy="21" r="1.5" fill="#e8f5ee" />
           <circle cx="21" cy="21" r="1.5" fill="#e8f5ee" />
           <circle cx="25" cy="26" r="1.5" fill="#e8f5ee" />
@@ -92,14 +92,14 @@ export default function ContactPage() {
       icon: (
         <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
           <rect x="4" y="4" width="40" height="40" rx="8" fill="#e8f5ee" />
-          <rect x="14" y="8" width="20" height="34" rx="4" fill="#1a5632" stroke="#0f3d22" strokeWidth="1" />
+          <rect x="14" y="8" width="20" height="34" rx="4" fill="#3a6670" stroke="#2a4e56" strokeWidth="1" />
           <rect x="16" y="12" width="16" height="22" rx="1" fill="#e8f5ee" />
           <circle cx="24" cy="38" r="2" fill="#c5a55a" />
-          <path d="M20 18H28" stroke="#4a9b6f" strokeWidth="1.5" strokeLinecap="round" />
-          <path d="M20 22H26" stroke="#4a9b6f" strokeWidth="1.5" strokeLinecap="round" />
-          <path d="M20 26H24" stroke="#4a9b6f" strokeWidth="1.5" strokeLinecap="round" />
+          <path d="M20 18H28" stroke="#5a9aa8" strokeWidth="1.5" strokeLinecap="round" />
+          <path d="M20 22H26" stroke="#5a9aa8" strokeWidth="1.5" strokeLinecap="round" />
+          <path d="M20 26H24" stroke="#5a9aa8" strokeWidth="1.5" strokeLinecap="round" />
           <circle cx="22" cy="30" r="1" fill="#c5a55a" />
-          <circle cx="26" cy="30" r="1" fill="#2d7a4a" />
+          <circle cx="26" cy="30" r="1" fill="#4d7d88" />
         </svg>
       ),
     },
@@ -109,10 +109,10 @@ export default function ContactPage() {
       icon: (
         <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
           <rect x="4" y="4" width="40" height="40" rx="8" fill="#e8f5ee" />
-          <rect x="12" y="28" width="5" height="10" rx="1" fill="#4a9b6f" />
-          <rect x="19" y="22" width="5" height="16" rx="1" fill="#2d7a4a" />
-          <rect x="26" y="16" width="5" height="22" rx="1" fill="#1a5632" />
-          <rect x="33" y="12" width="5" height="26" rx="1" fill="#0f3d22" />
+          <rect x="12" y="28" width="5" height="10" rx="1" fill="#5a9aa8" />
+          <rect x="19" y="22" width="5" height="16" rx="1" fill="#4d7d88" />
+          <rect x="26" y="16" width="5" height="22" rx="1" fill="#3a6670" />
+          <rect x="33" y="12" width="5" height="26" rx="1" fill="#2a4e56" />
           <path d="M12 26L19 20L26 14L36 10" stroke="#c5a55a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
           <circle cx="36" cy="10" r="2.5" fill="#c5a55a" />
         </svg>
@@ -126,29 +126,29 @@ export default function ContactPage() {
       desc: "현재 어떤 마케팅 채널이 필요하고, 어떤 채널이 비효율적인지 분석합니다.",
       icon: (
         <svg width="56" height="56" viewBox="0 0 56 56" fill="none">
-          <circle cx="24" cy="24" r="16" fill="#e8f5ee" stroke="#2d7a4a" strokeWidth="2" />
-          <circle cx="24" cy="24" r="8" fill="#d4edda" stroke="#1a5632" strokeWidth="1.5" />
-          <circle cx="24" cy="24" r="2" fill="#1a5632" />
-          <line x1="36" y1="36" x2="50" y2="50" stroke="#1a5632" strokeWidth="4" strokeLinecap="round" />
+          <circle cx="24" cy="24" r="16" fill="#e8f5ee" stroke="#4d7d88" strokeWidth="2" />
+          <circle cx="24" cy="24" r="8" fill="#d4edda" stroke="#3a6670" strokeWidth="1.5" />
+          <circle cx="24" cy="24" r="2" fill="#3a6670" />
+          <line x1="36" y1="36" x2="50" y2="50" stroke="#3a6670" strokeWidth="4" strokeLinecap="round" />
           <line x1="36" y1="36" x2="48" y2="48" stroke="#c5a55a" strokeWidth="2" strokeLinecap="round" />
-          <circle cx="20" cy="18" r="1.5" fill="#4a9b6f" opacity="0.6" />
-          <circle cx="30" cy="20" r="1" fill="#4a9b6f" opacity="0.4" />
+          <circle cx="20" cy="18" r="1.5" fill="#5a9aa8" opacity="0.6" />
+          <circle cx="30" cy="20" r="1" fill="#5a9aa8" opacity="0.4" />
         </svg>
       ),
-      gradient: "from-[#1a5632] to-[#2d7a4a]",
+      gradient: "from-[#3a6670] to-[#4d7d88]",
     },
     {
       title: "키워드 분석",
       desc: "지역과 진료과에 맞는 핵심 키워드와 세부 키워드를 발굴합니다.",
       icon: (
         <svg width="56" height="56" viewBox="0 0 56 56" fill="none">
-          <rect x="4" y="16" width="32" height="16" rx="8" fill="#2d7a4a" />
+          <rect x="4" y="16" width="32" height="16" rx="8" fill="#4d7d88" />
           <text x="12" y="28" fill="#e8f5ee" fontSize="8" fontWeight="bold">#KEY</text>
           <rect x="20" y="6" width="28" height="12" rx="6" fill="#c5a55a" opacity="0.8" />
           <text x="26" y="15" fill="#fff" fontSize="7" fontWeight="bold">검색</text>
-          <rect x="16" y="36" width="36" height="14" rx="7" fill="#4a9b6f" />
+          <rect x="16" y="36" width="36" height="14" rx="7" fill="#5a9aa8" />
           <text x="22" y="46" fill="#e8f5ee" fontSize="7" fontWeight="bold">키워드</text>
-          <circle cx="48" cy="12" r="3" fill="#1a5632" opacity="0.3" />
+          <circle cx="48" cy="12" r="3" fill="#3a6670" opacity="0.3" />
           <circle cx="8" cy="40" r="2" fill="#c5a55a" opacity="0.3" />
         </svg>
       ),
@@ -162,8 +162,8 @@ export default function ContactPage() {
           <path d="M28 6C18 6 12 14 12 22C12 28 16 32 20 34V40H36V34C40 32 44 28 44 22C44 14 38 6 28 6Z" fill="#c5a55a" />
           <path d="M28 6C22 6 16 12 16 20C16 26 20 30 24 32V38H32V32C36 30 40 26 40 20C40 12 34 6 28 6Z" fill="#f0e6c8" />
           <path d="M24 14C24 14 26 20 28 20C30 20 28 14 32 14" stroke="#c5a55a" strokeWidth="1.5" strokeLinecap="round" />
-          <rect x="22" y="40" width="12" height="3" rx="1" fill="#1a5632" />
-          <rect x="24" y="44" width="8" height="3" rx="1" fill="#2d7a4a" />
+          <rect x="22" y="40" width="12" height="3" rx="1" fill="#3a6670" />
+          <rect x="24" y="44" width="8" height="3" rx="1" fill="#4d7d88" />
           <path d="M28 2V6" stroke="#c5a55a" strokeWidth="2" strokeLinecap="round" />
           <path d="M40 8L44 4" stroke="#c5a55a" strokeWidth="2" strokeLinecap="round" />
           <path d="M16 8L12 4" stroke="#c5a55a" strokeWidth="2" strokeLinecap="round" />
@@ -171,7 +171,7 @@ export default function ContactPage() {
           <path d="M6 18H10" stroke="#c5a55a" strokeWidth="2" strokeLinecap="round" />
         </svg>
       ),
-      gradient: "from-[#4a9b6f] to-[#2d7a4a]",
+      gradient: "from-[#5a9aa8] to-[#4d7d88]",
     },
   ];
 
@@ -181,11 +181,11 @@ export default function ContactPage() {
       text: "평일 10:00 - 18:00",
       icon: (
         <svg width="44" height="44" viewBox="0 0 44 44" fill="none">
-          <circle cx="22" cy="22" r="18" fill="#e8f5ee" stroke="#2d7a4a" strokeWidth="2" />
-          <circle cx="22" cy="22" r="14" fill="white" stroke="#1a5632" strokeWidth="1.5" />
-          <line x1="22" y1="22" x2="22" y2="14" stroke="#1a5632" strokeWidth="2.5" strokeLinecap="round" />
+          <circle cx="22" cy="22" r="18" fill="#e8f5ee" stroke="#4d7d88" strokeWidth="2" />
+          <circle cx="22" cy="22" r="14" fill="white" stroke="#3a6670" strokeWidth="1.5" />
+          <line x1="22" y1="22" x2="22" y2="14" stroke="#3a6670" strokeWidth="2.5" strokeLinecap="round" />
           <line x1="22" y1="22" x2="30" y2="22" stroke="#c5a55a" strokeWidth="2" strokeLinecap="round" />
-          <circle cx="22" cy="22" r="2" fill="#1a5632" />
+          <circle cx="22" cy="22" r="2" fill="#3a6670" />
           {[0, 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330].map((deg) => (
             <line
               key={deg}
@@ -193,7 +193,7 @@ export default function ContactPage() {
               y1={22 + 12 * Math.sin((deg * Math.PI) / 180)}
               x2={22 + 13.5 * Math.cos((deg * Math.PI) / 180)}
               y2={22 + 13.5 * Math.sin((deg * Math.PI) / 180)}
-              stroke="#4a9b6f"
+              stroke="#5a9aa8"
               strokeWidth="1"
               strokeLinecap="round"
             />
@@ -207,7 +207,7 @@ export default function ContactPage() {
       icon: (
         <svg width="44" height="44" viewBox="0 0 44 44" fill="none">
           <rect x="3" y="3" width="38" height="38" rx="8" fill="#e8f5ee" />
-          <path d="M8 12C8 10.34 9.34 9 11 9H33C34.66 9 36 10.34 36 12V28C36 29.66 34.66 31 33 31H20L12 37V31H11C9.34 31 8 29.66 8 28V12Z" fill="#2d7a4a" />
+          <path d="M8 12C8 10.34 9.34 9 11 9H33C34.66 9 36 10.34 36 12V28C36 29.66 34.66 31 33 31H20L12 37V31H11C9.34 31 8 29.66 8 28V12Z" fill="#4d7d88" />
           <path d="M14 17H30" stroke="#e8f5ee" strokeWidth="2" strokeLinecap="round" />
           <path d="M14 21H26" stroke="#e8f5ee" strokeWidth="2" strokeLinecap="round" />
           <path d="M14 25H20" stroke="#c5a55a" strokeWidth="2" strokeLinecap="round" />
@@ -222,10 +222,10 @@ export default function ContactPage() {
       icon: (
         <svg width="44" height="44" viewBox="0 0 44 44" fill="none">
           <rect x="3" y="3" width="38" height="38" rx="8" fill="#e8f5ee" />
-          <path d="M22 8L22 8C16.48 8 12 12.48 12 18V24L10 28H34L32 24V18C32 12.48 27.52 8 22 8Z" fill="#2d7a4a" />
-          <path d="M22 6V8" stroke="#1a5632" strokeWidth="2" strokeLinecap="round" />
+          <path d="M22 8L22 8C16.48 8 12 12.48 12 18V24L10 28H34L32 24V18C32 12.48 27.52 8 22 8Z" fill="#4d7d88" />
+          <path d="M22 6V8" stroke="#3a6670" strokeWidth="2" strokeLinecap="round" />
           <path d="M16 18L22 12L28 18" stroke="#e8f5ee" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-          <rect x="12" y="28" width="20" height="3" rx="1.5" fill="#1a5632" />
+          <rect x="12" y="28" width="20" height="3" rx="1.5" fill="#3a6670" />
           <path d="M22 18V24" stroke="#e8f5ee" strokeWidth="2" strokeLinecap="round" />
           <circle cx="22" cy="35" r="3" fill="#c5a55a" />
           <path d="M19 33H25" stroke="#c5a55a" strokeWidth="1.5" strokeLinecap="round" />
@@ -237,7 +237,7 @@ export default function ContactPage() {
   return (
     <>
       {/* Hero with gradient background and decorative SVGs */}
-      <section className="relative pt-32 pb-20 overflow-hidden" style={{ background: "linear-gradient(135deg, #0f3d22 0%, #1a5632 40%, #2d7a4a 70%, #4a9b6f 100%)" }}>
+      <section className="relative pt-32 pb-20 overflow-hidden" style={{ background: "linear-gradient(135deg, #2a4e56 0%, #3a6670 40%, #4d7d88 70%, #5a9aa8 100%)" }}>
         {/* Decorative SVG patterns */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           {/* Dot grid */}
@@ -293,7 +293,7 @@ export default function ContactPage() {
         <div className="container-narrow">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
             <div>
-              <div className="inline-flex items-center gap-2 bg-[#e8f5ee] text-[#1a5632] px-4 py-1.5 rounded-full text-sm font-medium mb-4">
+              <div className="inline-flex items-center gap-2 bg-[#e8f5ee] text-[#3a6670] px-4 py-1.5 rounded-full text-sm font-medium mb-4">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
                   <path d="M8 1L10 6H15L11 9L12.5 14L8 11L3.5 14L5 9L1 6H6L8 1Z" fill="#c5a55a" />
                 </svg>
@@ -318,7 +318,7 @@ export default function ContactPage() {
               {services.map((item, i) => (
                 <div
                   key={i}
-                  className="bg-white rounded-xl p-5 border border-gray-100 hover:border-[#2d7a4a]/30 hover:shadow-lg transition-all duration-300 group"
+                  className="bg-white rounded-xl p-5 border border-gray-100 hover:border-[#4d7d88]/30 hover:shadow-lg transition-all duration-300 group"
                   style={{ boxShadow: "0 2px 12px rgba(26,86,50,0.06)" }}
                 >
                   <div className="mb-3 transform group-hover:scale-110 transition-transform duration-300">
@@ -336,8 +336,8 @@ export default function ContactPage() {
             {/* Background decoration */}
             <div className="absolute inset-0 pointer-events-none overflow-hidden">
               <svg className="absolute top-4 right-4 opacity-10" width="120" height="120" viewBox="0 0 120 120">
-                <circle cx="60" cy="60" r="50" stroke="#1a5632" strokeWidth="1" fill="none" />
-                <circle cx="60" cy="60" r="35" stroke="#1a5632" strokeWidth="1" fill="none" />
+                <circle cx="60" cy="60" r="50" stroke="#3a6670" strokeWidth="1" fill="none" />
+                <circle cx="60" cy="60" r="35" stroke="#3a6670" strokeWidth="1" fill="none" />
               </svg>
             </div>
             <div className="p-8 md:p-12 relative z-10">
@@ -368,25 +368,25 @@ export default function ContactPage() {
             <div className="hidden lg:flex lg:col-span-2 flex-col items-center justify-center p-8">
               <svg width="220" height="280" viewBox="0 0 220 280" fill="none" className="mb-6">
                 {/* Clipboard */}
-                <rect x="30" y="20" width="160" height="240" rx="16" fill="#e8f5ee" stroke="#2d7a4a" strokeWidth="2" />
-                <rect x="70" y="8" width="80" height="24" rx="12" fill="#1a5632" />
+                <rect x="30" y="20" width="160" height="240" rx="16" fill="#e8f5ee" stroke="#4d7d88" strokeWidth="2" />
+                <rect x="70" y="8" width="80" height="24" rx="12" fill="#3a6670" />
                 <circle cx="110" cy="20" r="6" fill="#e8f5ee" />
                 {/* Form lines */}
-                <rect x="50" y="55" width="60" height="8" rx="4" fill="#2d7a4a" opacity="0.3" />
-                <rect x="50" y="75" width="120" height="12" rx="4" fill="#d4edda" stroke="#4a9b6f" strokeWidth="1" />
-                <rect x="50" y="100" width="60" height="8" rx="4" fill="#2d7a4a" opacity="0.3" />
-                <rect x="50" y="120" width="120" height="12" rx="4" fill="#d4edda" stroke="#4a9b6f" strokeWidth="1" />
-                <rect x="50" y="145" width="60" height="8" rx="4" fill="#2d7a4a" opacity="0.3" />
-                <rect x="50" y="165" width="120" height="30" rx="4" fill="#d4edda" stroke="#4a9b6f" strokeWidth="1" />
+                <rect x="50" y="55" width="60" height="8" rx="4" fill="#4d7d88" opacity="0.3" />
+                <rect x="50" y="75" width="120" height="12" rx="4" fill="#d4edda" stroke="#5a9aa8" strokeWidth="1" />
+                <rect x="50" y="100" width="60" height="8" rx="4" fill="#4d7d88" opacity="0.3" />
+                <rect x="50" y="120" width="120" height="12" rx="4" fill="#d4edda" stroke="#5a9aa8" strokeWidth="1" />
+                <rect x="50" y="145" width="60" height="8" rx="4" fill="#4d7d88" opacity="0.3" />
+                <rect x="50" y="165" width="120" height="30" rx="4" fill="#d4edda" stroke="#5a9aa8" strokeWidth="1" />
                 {/* Check marks */}
                 <path d="M160 60L165 65L175 55" stroke="#c5a55a" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
                 <path d="M160 105L165 110L175 100" stroke="#c5a55a" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
                 {/* Button */}
-                <rect x="50" y="210" width="120" height="32" rx="8" fill="#1a5632" />
+                <rect x="50" y="210" width="120" height="32" rx="8" fill="#3a6670" />
                 <text x="85" y="230" fill="white" fontSize="11" fontWeight="bold">신청하기</text>
                 {/* Decorative stars */}
                 <path d="M190 40L194 48L203 49L197 55L198 64L190 60L182 64L183 55L177 49L186 48Z" fill="#c5a55a" opacity="0.3" />
-                <path d="M25 180L28 186L35 187L30 191L31 198L25 195L19 198L20 191L15 187L22 186Z" fill="#4a9b6f" opacity="0.3" />
+                <path d="M25 180L28 186L35 187L30 191L31 198L25 195L19 198L20 191L15 187L22 186Z" fill="#5a9aa8" opacity="0.3" />
               </svg>
               <h3 className="text-xl font-bold text-center mb-3">무료 상담 신청</h3>
               <p className="text-sm text-muted text-center leading-relaxed max-w-xs">
@@ -395,22 +395,22 @@ export default function ContactPage() {
               </p>
               <div className="mt-6 flex items-center gap-3 text-sm text-muted">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <circle cx="10" cy="10" r="8" fill="#e8f5ee" stroke="#2d7a4a" strokeWidth="1.5" />
-                  <path d="M7 10L9 12L13 8" stroke="#1a5632" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                  <circle cx="10" cy="10" r="8" fill="#e8f5ee" stroke="#4d7d88" strokeWidth="1.5" />
+                  <path d="M7 10L9 12L13 8" stroke="#3a6670" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
                 24시간 이내 회신
               </div>
               <div className="mt-3 flex items-center gap-3 text-sm text-muted">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <circle cx="10" cy="10" r="8" fill="#e8f5ee" stroke="#2d7a4a" strokeWidth="1.5" />
-                  <path d="M7 10L9 12L13 8" stroke="#1a5632" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                  <circle cx="10" cy="10" r="8" fill="#e8f5ee" stroke="#4d7d88" strokeWidth="1.5" />
+                  <path d="M7 10L9 12L13 8" stroke="#3a6670" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
                 개인정보 안전 보호
               </div>
               <div className="mt-3 flex items-center gap-3 text-sm text-muted">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <circle cx="10" cy="10" r="8" fill="#e8f5ee" stroke="#2d7a4a" strokeWidth="1.5" />
-                  <path d="M7 10L9 12L13 8" stroke="#1a5632" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                  <circle cx="10" cy="10" r="8" fill="#e8f5ee" stroke="#4d7d88" strokeWidth="1.5" />
+                  <path d="M7 10L9 12L13 8" stroke="#3a6670" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
                 부담 없는 무료 진단
               </div>
@@ -433,7 +433,7 @@ export default function ContactPage() {
                         value={formData.hospitalName}
                         onChange={handleChange}
                         required
-                        className="w-full border border-gray-200 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#2d7a4a]/20 focus:border-[#2d7a4a] bg-[#fafaf8] hover:bg-white transition-colors"
+                        className="w-full border border-gray-200 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#4d7d88]/20 focus:border-[#4d7d88] bg-[#fafaf8] hover:bg-white transition-colors"
                         placeholder="병원명을 입력해주세요"
                       />
                     </div>
@@ -447,7 +447,7 @@ export default function ContactPage() {
                         value={formData.doctorName}
                         onChange={handleChange}
                         required
-                        className="w-full border border-gray-200 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#2d7a4a]/20 focus:border-[#2d7a4a] bg-[#fafaf8] hover:bg-white transition-colors"
+                        className="w-full border border-gray-200 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#4d7d88]/20 focus:border-[#4d7d88] bg-[#fafaf8] hover:bg-white transition-colors"
                         placeholder="성함을 입력해주세요"
                       />
                     </div>
@@ -464,7 +464,7 @@ export default function ContactPage() {
                         value={formData.phone}
                         onChange={handleChange}
                         required
-                        className="w-full border border-gray-200 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#2d7a4a]/20 focus:border-[#2d7a4a] bg-[#fafaf8] hover:bg-white transition-colors"
+                        className="w-full border border-gray-200 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#4d7d88]/20 focus:border-[#4d7d88] bg-[#fafaf8] hover:bg-white transition-colors"
                         placeholder="010-0000-0000"
                       />
                     </div>
@@ -477,7 +477,7 @@ export default function ContactPage() {
                         name="email"
                         value={formData.email}
                         onChange={handleChange}
-                        className="w-full border border-gray-200 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#2d7a4a]/20 focus:border-[#2d7a4a] bg-[#fafaf8] hover:bg-white transition-colors"
+                        className="w-full border border-gray-200 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#4d7d88]/20 focus:border-[#4d7d88] bg-[#fafaf8] hover:bg-white transition-colors"
                         placeholder="email@example.com"
                       />
                     </div>
@@ -492,7 +492,7 @@ export default function ContactPage() {
                         name="category"
                         value={formData.category}
                         onChange={handleChange}
-                        className="w-full border border-gray-200 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#2d7a4a]/20 focus:border-[#2d7a4a] bg-[#fafaf8] hover:bg-white transition-colors"
+                        className="w-full border border-gray-200 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#4d7d88]/20 focus:border-[#4d7d88] bg-[#fafaf8] hover:bg-white transition-colors"
                       >
                         <option value="">선택해주세요</option>
                         <option value="내과">내과</option>
@@ -518,7 +518,7 @@ export default function ContactPage() {
                         name="region"
                         value={formData.region}
                         onChange={handleChange}
-                        className="w-full border border-gray-200 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#2d7a4a]/20 focus:border-[#2d7a4a] bg-[#fafaf8] hover:bg-white transition-colors"
+                        className="w-full border border-gray-200 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#4d7d88]/20 focus:border-[#4d7d88] bg-[#fafaf8] hover:bg-white transition-colors"
                         placeholder="예: 인천 송도, 서울 강남"
                       />
                     </div>
@@ -532,7 +532,7 @@ export default function ContactPage() {
                       name="currentMarketing"
                       value={formData.currentMarketing}
                       onChange={handleChange}
-                      className="w-full border border-gray-200 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#2d7a4a]/20 focus:border-[#2d7a4a] bg-[#fafaf8] hover:bg-white transition-colors"
+                      className="w-full border border-gray-200 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#4d7d88]/20 focus:border-[#4d7d88] bg-[#fafaf8] hover:bg-white transition-colors"
                     >
                       <option value="">선택해주세요</option>
                       <option value="없음">마케팅 미진행</option>
@@ -551,7 +551,7 @@ export default function ContactPage() {
                       value={formData.message}
                       onChange={handleChange}
                       rows={5}
-                      className="w-full border border-gray-200 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#2d7a4a]/20 focus:border-[#2d7a4a] bg-[#fafaf8] hover:bg-white transition-colors resize-none"
+                      className="w-full border border-gray-200 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#4d7d88]/20 focus:border-[#4d7d88] bg-[#fafaf8] hover:bg-white transition-colors resize-none"
                       placeholder="현재 병원의 마케팅 상황이나 궁금하신 점을 자유롭게 작성해주세요"
                     />
                   </div>
@@ -559,7 +559,7 @@ export default function ContactPage() {
                   <button
                     type="submit"
                     className="w-full py-4 text-base font-semibold rounded-xl text-white transition-all duration-300 hover:shadow-lg"
-                    style={{ background: "linear-gradient(135deg, #1a5632 0%, #2d7a4a 100%)" }}
+                    style={{ background: "linear-gradient(135deg, #3a6670 0%, #4d7d88 100%)" }}
                   >
                     무료 상담 신청하기
                   </button>

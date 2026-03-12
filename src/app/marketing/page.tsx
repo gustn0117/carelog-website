@@ -20,19 +20,19 @@ function FloatingShapes() {
     <div className="absolute inset-0 overflow-hidden pointer-events-none" aria-hidden="true">
       {/* Circle top-right */}
       <svg className="absolute -top-10 -right-10 w-64 h-64 opacity-10 animate-float" viewBox="0 0 200 200">
-        <circle cx="100" cy="100" r="90" fill="none" stroke="#1a5632" strokeWidth="2" strokeDasharray="12 8" />
+        <circle cx="100" cy="100" r="90" fill="none" stroke="#3a6670" strokeWidth="2" strokeDasharray="12 8" />
         <circle cx="100" cy="100" r="60" fill="none" stroke="#c5a55a" strokeWidth="1.5" strokeDasharray="6 6" />
       </svg>
       {/* Cross left */}
       <svg className="absolute top-1/3 -left-6 w-20 h-20 opacity-[0.08]" viewBox="0 0 40 40" style={{ animationDelay: "2s", animationDuration: "8s" }}>
-        <line x1="0" y1="20" x2="40" y2="20" stroke="#1a5632" strokeWidth="3" />
-        <line x1="20" y1="0" x2="20" y2="40" stroke="#1a5632" strokeWidth="3" />
+        <line x1="0" y1="20" x2="40" y2="20" stroke="#3a6670" strokeWidth="3" />
+        <line x1="20" y1="0" x2="20" y2="40" stroke="#3a6670" strokeWidth="3" />
       </svg>
       {/* Dots bottom-right */}
       <svg className="absolute bottom-10 right-16 w-32 h-32 opacity-[0.07]" viewBox="0 0 100 100">
         {[0, 1, 2, 3, 4].map(r =>
           [0, 1, 2, 3, 4].map(c => (
-            <circle key={`${r}-${c}`} cx={10 + c * 20} cy={10 + r * 20} r="2.5" fill="#1a5632" />
+            <circle key={`${r}-${c}`} cx={10 + c * 20} cy={10 + r * 20} r="2.5" fill="#3a6670" />
           ))
         )}
       </svg>
@@ -72,8 +72,8 @@ function PainPointIllustration() {
       {/* Body */}
       <path d="M40,118 Q35,140 40,150 L76,150 Q80,140 76,118" fill="#ffffff" stroke="#ddd" strokeWidth="1" />
       {/* Stethoscope */}
-      <path d="M50,118 Q45,130 50,140" stroke="#1a5632" strokeWidth="1.5" fill="none" />
-      <circle cx="50" cy="142" r="3" fill="#1a5632" />
+      <path d="M50,118 Q45,130 50,140" stroke="#3a6670" strokeWidth="1.5" fill="none" />
+      <circle cx="50" cy="142" r="3" fill="#3a6670" />
       {/* Hand on head (frustrated) */}
       <ellipse cx="45" cy="88" rx="5" ry="4" fill="#f0dcc0" transform="rotate(-20 45 88)" />
       {/* Money flying away */}
@@ -84,7 +84,7 @@ function PainPointIllustration() {
         { x: 250, y: 65, r: 20, delay: "1.5s" },
       ].map((m, i) => (
         <g key={i} transform={`translate(${m.x},${m.y}) rotate(${m.r})`} opacity="0.7">
-          <rect width="28" height="14" rx="2" fill="#4a9b6f" />
+          <rect width="28" height="14" rx="2" fill="#5a9aa8" />
           <text x="14" y="10.5" textAnchor="middle" fontSize="7" fill="white" fontWeight="bold">₩</text>
         </g>
       ))}
@@ -101,28 +101,28 @@ function HeartContentSVG() {
       {/* Heart */}
       <path
         d="M120,170 C60,130 20,90 45,60 C60,42 85,45 100,60 L120,82 L140,60 C155,45 180,42 195,60 C220,90 180,130 120,170Z"
-        fill="#1a5632"
+        fill="#3a6670"
         opacity="0.12"
       />
       <path
         d="M120,160 C70,125 35,90 55,65 C67,50 85,52 97,65 L120,90 L143,65 C155,52 173,50 185,65 C205,90 170,125 120,160Z"
-        fill="#1a5632"
+        fill="#3a6670"
         opacity="0.25"
       />
       <path
         d="M120,148 C80,120 50,90 65,70 C74,58 88,60 97,70 L120,96 L143,70 C152,60 166,58 175,70 C190,90 160,120 120,148Z"
-        fill="#1a5632"
+        fill="#3a6670"
       />
       {/* Document lines flowing from heart */}
       <g opacity="0.6">
         <rect x="155" y="55" width="50" height="3" rx="1.5" fill="#c5a55a" />
         <rect x="160" y="63" width="35" height="2.5" rx="1.25" fill="#c5a55a" opacity="0.7" />
-        <rect x="155" y="75" width="45" height="3" rx="1.5" fill="#4a9b6f" />
-        <rect x="160" y="83" width="30" height="2.5" rx="1.25" fill="#4a9b6f" opacity="0.7" />
+        <rect x="155" y="75" width="45" height="3" rx="1.5" fill="#5a9aa8" />
+        <rect x="160" y="83" width="30" height="2.5" rx="1.25" fill="#5a9aa8" opacity="0.7" />
         <rect x="155" y="95" width="40" height="3" rx="1.5" fill="#c5a55a" />
       </g>
       {/* Small floating hearts */}
-      <path d="M40,40 C36,34 28,35 32,42 L40,52 L48,42 C52,35 44,34 40,40Z" fill="#4a9b6f" opacity="0.3" />
+      <path d="M40,40 C36,34 28,35 32,42 L40,52 L48,42 C52,35 44,34 40,40Z" fill="#5a9aa8" opacity="0.3" />
       <path d="M190,30 C187,25 181,26 184,31 L190,38 L196,31 C199,26 193,25 190,30Z" fill="#c5a55a" opacity="0.4" />
     </svg>
   );
@@ -134,29 +134,29 @@ function ShieldMapSVG() {
       {/* Shield */}
       <path
         d="M120,20 L195,50 C195,50 200,130 120,200 C40,130 45,50 45,50 Z"
-        fill="#1a5632"
+        fill="#3a6670"
         opacity="0.1"
-        stroke="#1a5632"
+        stroke="#3a6670"
         strokeWidth="2"
       />
       <path
         d="M120,35 L180,58 C180,58 184,125 120,185 C56,125 60,58 60,58 Z"
-        fill="#1a5632"
+        fill="#3a6670"
         opacity="0.15"
       />
       {/* Map pin inside shield */}
       <path
         d="M120,70 C100,70 88,85 88,100 C88,125 120,155 120,155 C120,155 152,125 152,100 C152,85 140,70 120,70Z"
-        fill="#1a5632"
+        fill="#3a6670"
         opacity="0.8"
       />
       <circle cx="120" cy="98" r="14" fill="white" opacity="0.9" />
       <circle cx="120" cy="98" r="6" fill="#c5a55a" />
       {/* Shield glow lines */}
-      <path d="M45,50 L30,45" stroke="#1a5632" strokeWidth="1.5" opacity="0.2" strokeLinecap="round" />
-      <path d="M195,50 L210,45" stroke="#1a5632" strokeWidth="1.5" opacity="0.2" strokeLinecap="round" />
-      <path d="M40,90 L25,92" stroke="#1a5632" strokeWidth="1.5" opacity="0.15" strokeLinecap="round" />
-      <path d="M200,90 L215,92" stroke="#1a5632" strokeWidth="1.5" opacity="0.15" strokeLinecap="round" />
+      <path d="M45,50 L30,45" stroke="#3a6670" strokeWidth="1.5" opacity="0.2" strokeLinecap="round" />
+      <path d="M195,50 L210,45" stroke="#3a6670" strokeWidth="1.5" opacity="0.2" strokeLinecap="round" />
+      <path d="M40,90 L25,92" stroke="#3a6670" strokeWidth="1.5" opacity="0.15" strokeLinecap="round" />
+      <path d="M200,90 L215,92" stroke="#3a6670" strokeWidth="1.5" opacity="0.15" strokeLinecap="round" />
       {/* Lock icon at bottom */}
       <rect x="110" y="168" width="20" height="14" rx="3" fill="#c5a55a" opacity="0.6" />
       <path d="M115,168 L115,162 C115,158 125,158 125,162 L125,168" stroke="#c5a55a" strokeWidth="2" fill="none" opacity="0.6" />
@@ -169,11 +169,11 @@ function TargetSVG() {
   return (
     <svg viewBox="0 0 240 220" fill="none" className="w-full max-w-[220px] mx-auto">
       {/* Outer ring */}
-      <circle cx="120" cy="115" r="85" fill="none" stroke="#1a5632" strokeWidth="3" opacity="0.15" />
-      <circle cx="120" cy="115" r="65" fill="none" stroke="#1a5632" strokeWidth="3" opacity="0.25" />
-      <circle cx="120" cy="115" r="45" fill="#1a5632" opacity="0.08" stroke="#1a5632" strokeWidth="3" opacity-stroke="0.35" />
-      <circle cx="120" cy="115" r="25" fill="#1a5632" opacity="0.15" stroke="#1a5632" strokeWidth="2" />
-      <circle cx="120" cy="115" r="8" fill="#1a5632" />
+      <circle cx="120" cy="115" r="85" fill="none" stroke="#3a6670" strokeWidth="3" opacity="0.15" />
+      <circle cx="120" cy="115" r="65" fill="none" stroke="#3a6670" strokeWidth="3" opacity="0.25" />
+      <circle cx="120" cy="115" r="45" fill="#3a6670" opacity="0.08" stroke="#3a6670" strokeWidth="3" opacity-stroke="0.35" />
+      <circle cx="120" cy="115" r="25" fill="#3a6670" opacity="0.15" stroke="#3a6670" strokeWidth="2" />
+      <circle cx="120" cy="115" r="8" fill="#3a6670" />
       {/* Arrow */}
       <line x1="50" y1="45" x2="116" y2="111" stroke="#c5a55a" strokeWidth="3" strokeLinecap="round" />
       {/* Arrow head */}
@@ -183,9 +183,9 @@ function TargetSVG() {
       <line x1="50" y1="45" x2="55" y2="35" stroke="#c5a55a" strokeWidth="2" strokeLinecap="round" />
       <line x1="50" y1="45" x2="42" y2="38" stroke="#c5a55a" strokeWidth="1.5" strokeLinecap="round" />
       {/* Impact lines */}
-      <line x1="130" y1="100" x2="145" y2="88" stroke="#4a9b6f" strokeWidth="1.5" strokeLinecap="round" opacity="0.5" />
-      <line x1="135" y1="115" x2="152" y2="115" stroke="#4a9b6f" strokeWidth="1.5" strokeLinecap="round" opacity="0.4" />
-      <line x1="130" y1="128" x2="145" y2="140" stroke="#4a9b6f" strokeWidth="1.5" strokeLinecap="round" opacity="0.3" />
+      <line x1="130" y1="100" x2="145" y2="88" stroke="#5a9aa8" strokeWidth="1.5" strokeLinecap="round" opacity="0.5" />
+      <line x1="135" y1="115" x2="152" y2="115" stroke="#5a9aa8" strokeWidth="1.5" strokeLinecap="round" opacity="0.4" />
+      <line x1="130" y1="128" x2="145" y2="140" stroke="#5a9aa8" strokeWidth="1.5" strokeLinecap="round" opacity="0.3" />
     </svg>
   );
 }
@@ -194,12 +194,12 @@ function GavelSVG() {
   return (
     <svg viewBox="0 0 120 120" fill="none" className="w-20 h-20 mx-auto mb-4">
       {/* Gavel head */}
-      <rect x="35" y="20" width="50" height="18" rx="4" fill="#1a5632" transform="rotate(-35 60 29)" />
+      <rect x="35" y="20" width="50" height="18" rx="4" fill="#3a6670" transform="rotate(-35 60 29)" />
       {/* Gavel handle */}
       <rect x="55" y="35" width="8" height="50" rx="3" fill="#c5a55a" transform="rotate(-35 59 60)" />
       {/* Sound block */}
-      <rect x="25" y="90" width="70" height="10" rx="4" fill="#1a5632" opacity="0.3" />
-      <rect x="30" y="85" width="60" height="8" rx="3" fill="#1a5632" opacity="0.5" />
+      <rect x="25" y="90" width="70" height="10" rx="4" fill="#3a6670" opacity="0.3" />
+      <rect x="30" y="85" width="60" height="8" rx="3" fill="#3a6670" opacity="0.5" />
       {/* Impact lines */}
       <line x1="50" y1="78" x2="45" y2="70" stroke="#c5a55a" strokeWidth="1.5" strokeLinecap="round" opacity="0.6" />
       <line x1="60" y1="76" x2="60" y2="67" stroke="#c5a55a" strokeWidth="1.5" strokeLinecap="round" opacity="0.6" />
@@ -219,7 +219,7 @@ function WarningTriangleSVG({ size = "w-5 h-5" }: { size?: string }) {
 }
 
 function CheckBadgeSVG({ index }: { index: number }) {
-  const colors = ["#1a5632", "#c5a55a", "#4a9b6f"];
+  const colors = ["#3a6670", "#c5a55a", "#5a9aa8"];
   return (
     <svg viewBox="0 0 80 80" fill="none" className="w-16 h-16 mx-auto mb-4">
       {/* Medal ribbon */}
@@ -254,7 +254,7 @@ export default function MarketingPage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative pt-32 pb-20 overflow-hidden" style={{ background: "linear-gradient(160deg, #0f3d22 0%, #1a5632 40%, #2d7a4a 70%, #4a9b6f 100%)" }}>
+      <section className="relative pt-32 pb-20 overflow-hidden" style={{ background: "linear-gradient(160deg, #2a4e56 0%, #3a6670 40%, #4d7d88 70%, #5a9aa8 100%)" }}>
         {/* Decorative background elements */}
         <div className="absolute inset-0 pointer-events-none overflow-hidden" aria-hidden="true">
           {/* Large blurred circle */}
@@ -357,9 +357,9 @@ export default function MarketingPage() {
         {/* Subtle background decoration */}
         <div className="absolute inset-0 pointer-events-none overflow-hidden" aria-hidden="true">
           <svg className="absolute top-20 right-0 w-72 h-72 opacity-[0.03]" viewBox="0 0 200 200">
-            <circle cx="100" cy="100" r="95" fill="none" stroke="#1a5632" strokeWidth="1" />
-            <circle cx="100" cy="100" r="70" fill="none" stroke="#1a5632" strokeWidth="1" />
-            <circle cx="100" cy="100" r="45" fill="none" stroke="#1a5632" strokeWidth="1" />
+            <circle cx="100" cy="100" r="95" fill="none" stroke="#3a6670" strokeWidth="1" />
+            <circle cx="100" cy="100" r="70" fill="none" stroke="#3a6670" strokeWidth="1" />
+            <circle cx="100" cy="100" r="45" fill="none" stroke="#3a6670" strokeWidth="1" />
           </svg>
         </div>
         <div className="container-narrow space-y-28 relative z-10">
@@ -540,7 +540,7 @@ export default function MarketingPage() {
         {/* Subtle decorative bg */}
         <div className="absolute inset-0 pointer-events-none overflow-hidden" aria-hidden="true">
           <svg className="absolute -bottom-10 -left-10 w-60 h-60 opacity-[0.03]" viewBox="0 0 200 200">
-            <path d="M100,10 L190,60 L190,140 L100,190 L10,140 L10,60 Z" fill="none" stroke="#1a5632" strokeWidth="2" />
+            <path d="M100,10 L190,60 L190,140 L100,190 L10,140 L10,60 Z" fill="none" stroke="#3a6670" strokeWidth="2" />
           </svg>
         </div>
 
@@ -565,9 +565,9 @@ export default function MarketingPage() {
               <div className="flex items-center gap-3 mb-6">
                 <svg viewBox="0 0 40 40" fill="none" className="w-10 h-10 shrink-0">
                   {/* Book */}
-                  <rect x="6" y="5" width="28" height="32" rx="2" fill="#1a5632" opacity="0.15" />
-                  <rect x="8" y="7" width="24" height="28" rx="1" fill="#1a5632" opacity="0.25" />
-                  <line x1="14" y1="7" x2="14" y2="35" stroke="#1a5632" strokeWidth="1.5" opacity="0.3" />
+                  <rect x="6" y="5" width="28" height="32" rx="2" fill="#3a6670" opacity="0.15" />
+                  <rect x="8" y="7" width="24" height="28" rx="1" fill="#3a6670" opacity="0.25" />
+                  <line x1="14" y1="7" x2="14" y2="35" stroke="#3a6670" strokeWidth="1.5" opacity="0.3" />
                   {/* Lines on page */}
                   <line x1="18" y1="14" x2="28" y2="14" stroke="white" strokeWidth="1" opacity="0.6" />
                   <line x1="18" y1="18" x2="26" y2="18" stroke="white" strokeWidth="1" opacity="0.6" />
@@ -663,8 +663,8 @@ export default function MarketingPage() {
                   <div className="p-5 bg-gradient-to-b from-green-50/30 to-green-50/60">
                     <div className="flex items-center gap-2 mb-2">
                       <svg className="w-3.5 h-3.5" viewBox="0 0 14 14" fill="none">
-                        <circle cx="7" cy="7" r="6" stroke="#1a5632" strokeWidth="1.5" />
-                        <polyline points="4,7 6.5,10 10,4.5" stroke="#1a5632" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+                        <circle cx="7" cy="7" r="6" stroke="#3a6670" strokeWidth="1.5" />
+                        <polyline points="4,7 6.5,10 10,4.5" stroke="#3a6670" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round" />
                       </svg>
                       <span className="text-xs text-primary font-medium">After</span>
                     </div>
@@ -683,14 +683,14 @@ export default function MarketingPage() {
             {/* Decorative shield behind */}
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-[0.04]" aria-hidden="true">
               <svg viewBox="0 0 200 240" className="w-48 h-56">
-                <path d="M100,10 L180,45 C180,45 185,140 100,220 C15,140 20,45 20,45 Z" fill="#1a5632" stroke="#1a5632" strokeWidth="2" />
+                <path d="M100,10 L180,45 C180,45 185,140 100,220 C15,140 20,45 20,45 Z" fill="#3a6670" stroke="#3a6670" strokeWidth="2" />
               </svg>
             </div>
             <div className="relative z-10">
               <svg viewBox="0 0 60 60" fill="none" className="w-14 h-14 mx-auto mb-4">
-                <circle cx="30" cy="30" r="26" fill="#1a5632" opacity="0.1" />
-                <circle cx="30" cy="30" r="18" fill="#1a5632" opacity="0.2" />
-                <path d="M30,12 L38,18 C38,18 40,35 30,48 C20,35 22,18 22,18 Z" fill="#1a5632" />
+                <circle cx="30" cy="30" r="26" fill="#3a6670" opacity="0.1" />
+                <circle cx="30" cy="30" r="18" fill="#3a6670" opacity="0.2" />
+                <path d="M30,12 L38,18 C38,18 40,35 30,48 C20,35 22,18 22,18 Z" fill="#3a6670" />
                 <polyline points="25,28 29,33 36,23" stroke="white" strokeWidth="2.5" fill="none" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
               <h3 className="text-xl font-bold mb-4">
@@ -716,7 +716,7 @@ export default function MarketingPage() {
       <section className="section-padding bg-light relative">
         <div className="absolute inset-0 pointer-events-none overflow-hidden" aria-hidden="true">
           <svg className="absolute top-10 left-[5%] w-24 h-24 opacity-[0.04]" viewBox="0 0 80 80">
-            <polygon points="40,5 75,25 75,55 40,75 5,55 5,25" fill="none" stroke="#1a5632" strokeWidth="2" />
+            <polygon points="40,5 75,25 75,55 40,75 5,55 5,25" fill="none" stroke="#3a6670" strokeWidth="2" />
           </svg>
           <svg className="absolute bottom-10 right-[8%] w-20 h-20 opacity-[0.04]" viewBox="0 0 60 60">
             <rect x="10" y="10" width="40" height="40" rx="8" fill="none" stroke="#c5a55a" strokeWidth="2" transform="rotate(15 30 30)" />

@@ -15,8 +15,8 @@ export default function PortfolioPage() {
         <svg width="100%" height="100%" viewBox="0 0 400 200" fill="none" preserveAspectRatio="xMidYMid slice">
           <defs>
             <linearGradient id="ortho-bg" x1="0" y1="0" x2="400" y2="200" gradientUnits="userSpaceOnUse">
-              <stop offset="0%" stopColor="#0f3d22" />
-              <stop offset="100%" stopColor="#2d7a4a" />
+              <stop offset="0%" stopColor="#2a4e56" />
+              <stop offset="100%" stopColor="#4d7d88" />
             </linearGradient>
           </defs>
           <rect width="400" height="200" fill="url(#ortho-bg)" />
@@ -60,8 +60,8 @@ export default function PortfolioPage() {
         <svg width="100%" height="100%" viewBox="0 0 400 200" fill="none" preserveAspectRatio="xMidYMid slice">
           <defs>
             <linearGradient id="derm-bg" x1="0" y1="0" x2="400" y2="200" gradientUnits="userSpaceOnUse">
-              <stop offset="0%" stopColor="#1a5632" />
-              <stop offset="100%" stopColor="#4a9b6f" />
+              <stop offset="0%" stopColor="#3a6670" />
+              <stop offset="100%" stopColor="#5a9aa8" />
             </linearGradient>
             <radialGradient id="cell1" cx="50%" cy="50%" r="50%">
               <stop offset="0%" stopColor="white" stopOpacity="0.2" />
@@ -105,9 +105,9 @@ export default function PortfolioPage() {
         <svg width="100%" height="100%" viewBox="0 0 400 200" fill="none" preserveAspectRatio="xMidYMid slice">
           <defs>
             <linearGradient id="dental-bg" x1="0" y1="0" x2="400" y2="200" gradientUnits="userSpaceOnUse">
-              <stop offset="0%" stopColor="#0f3d22" />
-              <stop offset="60%" stopColor="#1a5632" />
-              <stop offset="100%" stopColor="#2d7a4a" />
+              <stop offset="0%" stopColor="#2a4e56" />
+              <stop offset="60%" stopColor="#3a6670" />
+              <stop offset="100%" stopColor="#4d7d88" />
             </linearGradient>
           </defs>
           <rect width="400" height="200" fill="url(#dental-bg)" />
@@ -144,22 +144,22 @@ export default function PortfolioPage() {
         <svg width="100%" height="100%" viewBox="0 0 400 200" fill="none" preserveAspectRatio="xMidYMid slice">
           <defs>
             <linearGradient id="herb-bg" x1="0" y1="200" x2="400" y2="0" gradientUnits="userSpaceOnUse">
-              <stop offset="0%" stopColor="#0f3d22" />
-              <stop offset="100%" stopColor="#1a5632" />
+              <stop offset="0%" stopColor="#2a4e56" />
+              <stop offset="100%" stopColor="#3a6670" />
             </linearGradient>
           </defs>
           <rect width="400" height="200" fill="url(#herb-bg)" />
           {/* Leaf/herb pattern */}
           <g transform="translate(180, 100)">
             {/* Main stem */}
-            <path d="M0 80C0 80 0 -20 0 -20" stroke="#4a9b6f" strokeWidth="2.5" opacity="0.5" />
+            <path d="M0 80C0 80 0 -20 0 -20" stroke="#5a9aa8" strokeWidth="2.5" opacity="0.5" />
             {/* Leaves */}
-            <path d="M0 60C-30 50 -50 20 -40 0C-30 -10 -10 10 0 30" fill="#4a9b6f" opacity="0.3" />
-            <path d="M0 60C30 50 50 20 40 0C30 -10 10 10 0 30" fill="#2d7a4a" opacity="0.3" />
-            <path d="M0 30C-25 20 -40 -5 -30 -20C-22 -28 -5 -10 0 5" fill="#4a9b6f" opacity="0.25" />
-            <path d="M0 30C25 20 40 -5 30 -20C22 -28 5 -10 0 5" fill="#2d7a4a" opacity="0.25" />
-            <path d="M0 0C-20 -10 -30 -30 -20 -40C-12 -46 -3 -30 0 -20" fill="#4a9b6f" opacity="0.2" />
-            <path d="M0 0C20 -10 30 -30 20 -40C12 -46 3 -30 0 -20" fill="#2d7a4a" opacity="0.2" />
+            <path d="M0 60C-30 50 -50 20 -40 0C-30 -10 -10 10 0 30" fill="#5a9aa8" opacity="0.3" />
+            <path d="M0 60C30 50 50 20 40 0C30 -10 10 10 0 30" fill="#4d7d88" opacity="0.3" />
+            <path d="M0 30C-25 20 -40 -5 -30 -20C-22 -28 -5 -10 0 5" fill="#5a9aa8" opacity="0.25" />
+            <path d="M0 30C25 20 40 -5 30 -20C22 -28 5 -10 0 5" fill="#4d7d88" opacity="0.25" />
+            <path d="M0 0C-20 -10 -30 -30 -20 -40C-12 -46 -3 -30 0 -20" fill="#5a9aa8" opacity="0.2" />
+            <path d="M0 0C20 -10 30 -30 20 -40C12 -46 3 -30 0 -20" fill="#4d7d88" opacity="0.2" />
             {/* Leaf veins */}
             <path d="M0 55L-20 35" stroke="white" strokeWidth="0.5" opacity="0.2" />
             <path d="M0 55L20 35" stroke="white" strokeWidth="0.5" opacity="0.2" />
@@ -173,14 +173,14 @@ export default function PortfolioPage() {
           </g>
           {/* Small decorative herbs */}
           <g transform="translate(310, 40)">
-            <path d="M0 30L0 0" stroke="#4a9b6f" strokeWidth="1.5" opacity="0.3" />
-            <path d="M0 20C-12 14 -18 2 -12 -4C-8 -7 -2 0 0 10" fill="#4a9b6f" opacity="0.2" />
-            <path d="M0 20C12 14 18 2 12 -4C8 -7 2 0 0 10" fill="#2d7a4a" opacity="0.2" />
+            <path d="M0 30L0 0" stroke="#5a9aa8" strokeWidth="1.5" opacity="0.3" />
+            <path d="M0 20C-12 14 -18 2 -12 -4C-8 -7 -2 0 0 10" fill="#5a9aa8" opacity="0.2" />
+            <path d="M0 20C12 14 18 2 12 -4C8 -7 2 0 0 10" fill="#4d7d88" opacity="0.2" />
           </g>
           <g transform="translate(330, 140)">
-            <path d="M0 25L0 0" stroke="#4a9b6f" strokeWidth="1.5" opacity="0.3" />
-            <path d="M0 15C-10 10 -15 0 -10 -5C-7 -7 -2 0 0 8" fill="#4a9b6f" opacity="0.2" />
-            <path d="M0 15C10 10 15 0 10 -5C7 -7 2 0 0 8" fill="#2d7a4a" opacity="0.2" />
+            <path d="M0 25L0 0" stroke="#5a9aa8" strokeWidth="1.5" opacity="0.3" />
+            <path d="M0 15C-10 10 -15 0 -10 -5C-7 -7 -2 0 0 8" fill="#5a9aa8" opacity="0.2" />
+            <path d="M0 15C10 10 15 0 10 -5C7 -7 2 0 0 8" fill="#4d7d88" opacity="0.2" />
           </g>
           {/* Floating particles */}
           {[
@@ -202,13 +202,13 @@ export default function PortfolioPage() {
         <svg width="100%" height="100%" viewBox="0 0 400 200" fill="none" preserveAspectRatio="xMidYMid slice">
           <defs>
             <linearGradient id="eye-bg" x1="0" y1="0" x2="400" y2="200" gradientUnits="userSpaceOnUse">
-              <stop offset="0%" stopColor="#1a5632" />
-              <stop offset="100%" stopColor="#0f3d22" />
+              <stop offset="0%" stopColor="#3a6670" />
+              <stop offset="100%" stopColor="#2a4e56" />
             </linearGradient>
             <radialGradient id="iris-grad" cx="50%" cy="50%" r="50%">
               <stop offset="0%" stopColor="#c5a55a" />
-              <stop offset="60%" stopColor="#2d7a4a" />
-              <stop offset="100%" stopColor="#1a5632" />
+              <stop offset="60%" stopColor="#4d7d88" />
+              <stop offset="100%" stopColor="#3a6670" />
             </radialGradient>
           </defs>
           <rect width="400" height="200" fill="url(#eye-bg)" />
@@ -217,7 +217,7 @@ export default function PortfolioPage() {
             <path d="M-80 0C-80 0 -40 -50 0 -50C40 -50 80 0 80 0C80 0 40 50 0 50C-40 50 -80 0 -80 0Z" fill="white" stroke="white" strokeWidth="1.5" opacity="0.2" />
             <circle cx="0" cy="0" r="30" fill="url(#iris-grad)" opacity="0.6" />
             <circle cx="0" cy="0" r="30" stroke="white" strokeWidth="1" opacity="0.3" />
-            <circle cx="0" cy="0" r="12" fill="#0f3d22" opacity="0.8" />
+            <circle cx="0" cy="0" r="12" fill="#2a4e56" opacity="0.8" />
             <circle cx="-8" cy="-8" r="5" fill="white" opacity="0.4" />
             <circle cx="4" cy="-4" r="2" fill="white" opacity="0.2" />
             {/* Iris detail lines */}
@@ -265,8 +265,8 @@ export default function PortfolioPage() {
         <svg width="100%" height="100%" viewBox="0 0 400 200" fill="none" preserveAspectRatio="xMidYMid slice">
           <defs>
             <linearGradient id="pedi-bg" x1="0" y1="0" x2="400" y2="200" gradientUnits="userSpaceOnUse">
-              <stop offset="0%" stopColor="#2d7a4a" />
-              <stop offset="100%" stopColor="#4a9b6f" />
+              <stop offset="0%" stopColor="#4d7d88" />
+              <stop offset="100%" stopColor="#5a9aa8" />
             </linearGradient>
           </defs>
           <rect width="400" height="200" fill="url(#pedi-bg)" />
@@ -311,9 +311,9 @@ export default function PortfolioPage() {
       label: "누적 파트너 병원",
       icon: (
         <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-          <rect x="2" y="8" width="28" height="20" rx="4" fill="#2d7a4a" />
+          <rect x="2" y="8" width="28" height="20" rx="4" fill="#4d7d88" />
           <path d="M2 12L16 20L30 12" stroke="#e8f5ee" strokeWidth="1.5" />
-          <rect x="8" y="4" width="16" height="8" rx="2" fill="#1a5632" />
+          <rect x="8" y="4" width="16" height="8" rx="2" fill="#3a6670" />
           <path d="M14 8H18" stroke="#c5a55a" strokeWidth="1.5" strokeLinecap="round" />
         </svg>
       ),
@@ -323,10 +323,10 @@ export default function PortfolioPage() {
       label: "재계약률",
       icon: (
         <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-          <circle cx="16" cy="16" r="13" stroke="#2d7a4a" strokeWidth="2" fill="none" />
+          <circle cx="16" cy="16" r="13" stroke="#4d7d88" strokeWidth="2" fill="none" />
           <path d="M16 3A13 13 0 0 1 28.7 19" stroke="#c5a55a" strokeWidth="3" strokeLinecap="round" />
           <circle cx="16" cy="16" r="6" fill="#e8f5ee" />
-          <text x="12.5" y="20" fill="#1a5632" fontSize="8" fontWeight="bold">%</text>
+          <text x="12.5" y="20" fill="#3a6670" fontSize="8" fontWeight="bold">%</text>
         </svg>
       ),
     },
@@ -335,10 +335,10 @@ export default function PortfolioPage() {
       label: "평균 환자 유입 증가",
       icon: (
         <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-          <path d="M4 28L12 18L18 22L28 6" stroke="#2d7a4a" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M4 28L12 18L18 22L28 6" stroke="#4d7d88" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
           <path d="M22 6H28V12" stroke="#c5a55a" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-          <circle cx="12" cy="18" r="3" fill="#e8f5ee" stroke="#1a5632" strokeWidth="1" />
-          <circle cx="18" cy="22" r="3" fill="#e8f5ee" stroke="#1a5632" strokeWidth="1" />
+          <circle cx="12" cy="18" r="3" fill="#e8f5ee" stroke="#3a6670" strokeWidth="1" />
+          <circle cx="18" cy="22" r="3" fill="#e8f5ee" stroke="#3a6670" strokeWidth="1" />
         </svg>
       ),
     },
@@ -347,8 +347,8 @@ export default function PortfolioPage() {
       label: "전문 진료과목 경험",
       icon: (
         <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-          <rect x="4" y="4" width="24" height="24" rx="4" fill="#e8f5ee" stroke="#2d7a4a" strokeWidth="1.5" />
-          <path d="M16 8V24M8 16H24" stroke="#1a5632" strokeWidth="2.5" strokeLinecap="round" />
+          <rect x="4" y="4" width="24" height="24" rx="4" fill="#e8f5ee" stroke="#4d7d88" strokeWidth="1.5" />
+          <path d="M16 8V24M8 16H24" stroke="#3a6670" strokeWidth="2.5" strokeLinecap="round" />
           <circle cx="10" cy="10" r="2" fill="#c5a55a" opacity="0.5" />
           <circle cx="22" cy="10" r="2" fill="#c5a55a" opacity="0.5" />
           <circle cx="10" cy="22" r="2" fill="#c5a55a" opacity="0.5" />
@@ -361,7 +361,7 @@ export default function PortfolioPage() {
   return (
     <>
       {/* Hero with dramatic gradient */}
-      <section className="relative pt-32 pb-20 overflow-hidden" style={{ background: "linear-gradient(135deg, #0f3d22 0%, #1a5632 35%, #2d7a4a 65%, #4a9b6f 100%)" }}>
+      <section className="relative pt-32 pb-20 overflow-hidden" style={{ background: "linear-gradient(135deg, #2a4e56 0%, #3a6670 35%, #4d7d88 65%, #5a9aa8 100%)" }}>
         {/* Decorative SVG patterns */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           {/* Large concentric circles */}
@@ -406,7 +406,7 @@ export default function PortfolioPage() {
             {stats.map((stat, i) => (
               <div key={i} className="text-center">
                 <div className="flex justify-center mb-2">{stat.icon}</div>
-                <p className="text-2xl md:text-3xl font-bold" style={{ color: "#1a5632" }}>{stat.value}</p>
+                <p className="text-2xl md:text-3xl font-bold" style={{ color: "#3a6670" }}>{stat.value}</p>
                 <p className="text-xs md:text-sm text-muted mt-1">{stat.label}</p>
               </div>
             ))}
@@ -432,16 +432,16 @@ export default function PortfolioPage() {
                   {item.headerIllustration}
                   {/* Result badge */}
                   <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-1.5 rounded-full">
-                    <span className="text-xs font-bold" style={{ color: "#1a5632" }}>{item.result}</span>
+                    <span className="text-xs font-bold" style={{ color: "#3a6670" }}>{item.result}</span>
                   </div>
                 </div>
                 <div className="p-6">
                   <div className="flex items-center gap-2 mb-3">
-                    <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ background: "#e8f5ee", color: "#1a5632" }}>
+                    <span className="text-xs font-medium px-3 py-1 rounded-full" style={{ background: "#e8f5ee", color: "#3a6670" }}>
                       {item.category}
                     </span>
                   </div>
-                  <h3 className="text-lg font-bold mb-2 group-hover:text-[#1a5632] transition-colors">{item.title}</h3>
+                  <h3 className="text-lg font-bold mb-2 group-hover:text-[#3a6670] transition-colors">{item.title}</h3>
                   <p className="text-sm text-muted mb-4 leading-relaxed">{item.description}</p>
                   <div className="flex flex-wrap gap-2">
                     {item.tags.map((tag) => (

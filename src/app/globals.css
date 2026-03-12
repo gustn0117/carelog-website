@@ -179,7 +179,7 @@
   position: absolute;
   inset: -2px;
   border-radius: calc(1rem + 2px);
-  background: linear-gradient(135deg, #1a5632, #c5a55a, #4a9b6f, #1a5632);
+  background: linear-gradient(135deg, #3a6670, #c5a55a, #5a9aa8, #3a6670);
   background-size: 300% 300%;
   animation: gradientBorder 4s ease infinite;
   z-index: -1;
