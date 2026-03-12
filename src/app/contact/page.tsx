@@ -20,10 +20,37 @@ export default function ContactPage() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [submitting, setSubmitting] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // TODO: 폼 제출 로직 연결 (네이버 폼 또는 자체 API)
-    alert("상담 신청이 완료되었습니다. 빠르게 연락드리겠습니다.");
+    setSubmitting(true);
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+      if (res.ok) {
+        alert("상담 신청이 완료되었습니다. 빠르게 연락드리겠습니다.");
+        setFormData({
+          hospitalName: "",
+          doctorName: "",
+          phone: "",
+          email: "",
+          category: "",
+          region: "",
+          currentMarketing: "",
+          message: "",
+        });
+      } else {
+        alert("전송에 실패했습니다. 다시 시도해주세요.");
+      }
+    } catch {
+      alert("전송에 실패했습니다. 다시 시도해주세요.");
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   const services = [
@@ -560,10 +587,11 @@ export default function ContactPage() {
 
                   <button
                     type="submit"
-                    className="w-full py-4 text-base font-semibold rounded-xl text-white transition-all duration-300 hover:shadow-lg"
+                    disabled={submitting}
+                    className="w-full py-4 text-base font-semibold rounded-xl text-white transition-all duration-300 hover:shadow-lg disabled:opacity-60"
                     style={{ background: "linear-gradient(135deg, #3a6670 0%, #4d7d88 100%)" }}
                   >
-                    무료 상담 신청하기
+                    {submitting ? "전송 중..." : "무료 상담 신청하기"}
                   </button>
 
                   <p className="text-xs text-center text-muted">
